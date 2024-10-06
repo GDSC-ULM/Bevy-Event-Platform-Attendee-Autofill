@@ -28,9 +28,7 @@ pip install -r requirements.txt
 
 1. Prepare your Excel file with the following columns:
 
-- Last Name
-- First Name
-- Email
+| Last Name | First Name | Email |
 
 2. Run the script:
 
@@ -44,16 +42,14 @@ python main.py
 
 5. Click on the "Add attendees" button to open the add attendee popup.
 
-6. Place your cursor in the "First name" field of the popup.
+6. Place your cursor in the "First name" field of the popup and press Enter to confirm that the script can detect the field.
 
-7. Switch back to the terminal window running the script and press Enter to start the automation.
+7. The script will now start filling in attendee details. For each record:
 
-8. The script will now start filling in attendee details. For each record:
+   - Place your cursor in the "First name" field
+   - Press Enter to trigger the script to fill in the details for that attendee
 
-- Place your cursor in the "First name" field
-- Press Enter to trigger the script to fill in the details for that attendee
-
-9. The script will automatically click "Save and add more" for all attendees except the last one, where it will click "Add".
+8. The script will automatically click "Save and add more" for all attendees except the last one, where it will click "Add".
 
 ## Important Notes
 
